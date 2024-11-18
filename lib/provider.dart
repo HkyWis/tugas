@@ -13,10 +13,6 @@ class ThemeProvider extends ChangeNotifier {
         return ThemeData(primarySwatch: Colors.grey, scaffoldBackgroundColor: Colors.grey[50]);
       case 'Tema D':
         return ThemeData(primarySwatch: Colors.pink, scaffoldBackgroundColor: Colors.pink[50]);
-      case 'Tema E':
-        return ThemeData(primarySwatch: Colors.red, scaffoldBackgroundColor: Colors.red[50]);
-      case 'Tema F':
-        return ThemeData(primarySwatch: Colors.yellow, scaffoldBackgroundColor: Colors.yellow[50]);
       default:
         return ThemeData(primarySwatch: Colors.blue, scaffoldBackgroundColor: Colors.blue[50]);
     }
